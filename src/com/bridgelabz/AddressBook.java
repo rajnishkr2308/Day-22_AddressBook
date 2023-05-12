@@ -50,7 +50,7 @@ public class AddressBook {
 
     public void editDetails(){
         System.out.println("Enter the Name of the Contact you want to Edit:");
-        String name= in.nextLine();
+        String name= in.next();
         boolean contactFound=false;
 
         for (Contact Temp : contacts) {
@@ -107,7 +107,7 @@ public class AddressBook {
 
     public void deleteDetails(){
         System.out.println("Enter the Name of the Contact you want to Delete:");
-        String name= in.nextLine();
+        String name= in.next();
         boolean contactFound=false;
 
         for (Contact Temp : contacts) {
